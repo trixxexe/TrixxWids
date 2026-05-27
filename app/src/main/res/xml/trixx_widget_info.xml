@@ -8,4 +8,4 @@
     android:initialLayout="@layout/widget_layout"
     android:resizeMode="horizontal|vertical"
     android:widgetCategory="home_screen"
-    android:previewImage="@mipmap/ic_launcher" />
+    android:previewImage="@android:drawable/sym_def_app_icon" />
