@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrixxWids</string>
+    <string name="title_editor">Editor</string>
+    <string name="title_gallery">My Widgets</string>
+    <string name="title_help">Help</string>
+    <string name="action_save">Save Widget</string>
+    <string name="action_apply">Apply to Home Screen</string>
+    <string name="gyro_toggle_label">Enable 3D Gyro Tilt</string>
+    <string name="empty_gallery">No widgets created yet. Build one!</string>
+    <string name="add_element">Add Element</string>
+</resources>
