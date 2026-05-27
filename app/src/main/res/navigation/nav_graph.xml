@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_editor">
+
+    <fragment
+        android:id="@+id/navigation_editor"
+        android:name="com.trixxwids.app.ui.EditorFragment"
+        android:label="Editor" />
+
+    <fragment
+        android:id="@+id/navigation_gallery"
+        android:name="com.trixxwids.app.ui.GalleryFragment"
+        android:label="Gallery" />
+
+    <fragment
+        android:id="@+id/navigation_help"
+        android:name="com.trixxwids.app.ui.HelpFragment"
+        android:label="Help" />
+</navigation>
