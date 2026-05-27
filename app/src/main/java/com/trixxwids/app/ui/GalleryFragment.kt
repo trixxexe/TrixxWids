@@ -25,8 +25,9 @@ import kotlinx.coroutines.launch
 
 class GalleryFragment : Fragment() {
 
-    private lateinit viewModel: WidgetViewModel
-    private lateinit adapter: GalleryAdapter
+    // THE FIX IS HERE: Added 'var' to both of these lines!
+    private lateinit var viewModel: WidgetViewModel
+    private lateinit var adapter: GalleryAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
