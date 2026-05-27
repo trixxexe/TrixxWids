@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to Create a Widget"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Go to the Editor tab.\n2. Select your desired widget size.\n3. Tap 'Add Element' to place text, shapes, or images on the canvas.\n4. Drag elements to position them.\n5. Tap 'Save Widget' when finished."
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to Add to Home Screen"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Method 1: Go to 'My Widgets' and tap 'Apply to Home Screen'. Your phone will prompt you to add it.\nMethod 2: Long-press an empty space on your home screen, select 'Widgets', find 'TrixxWids', and drag it onto your screen."
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="24dp"/>
+            
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lock Screen Support"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modern Android versions restrict direct widget placement on the lock screen. To use TrixxWids on your lock screen, you must use a third-party Lock Screen Widget app or a Live Wallpaper app that supports custom Android AppWidgets."
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="24dp"/>
+
+    </LinearLayout>
+</ScrollView>
